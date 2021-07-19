@@ -2,4 +2,20 @@
   background-color: var(--color-grey-dark-2);
   color: #fff;
   flex: 0 0 18%;
+
+  display: flex;
+
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem 1rem;
+  .nav-list {
+    list-style: none;
+
+    .nav-list-item {
+      margin-bottom: 1rem;
+    }
+  }
+  .copyright-text {
+    text-align: center;
+  }
 }
