@@ -8,6 +8,7 @@ import { FaBlog } from 'react-icons/fa'
 
 const Sidebar = () => {
   const year = new Date().getFullYear()
+  const baseUrl = '/portfolio'
   const currentRoutePath = useLocation().pathname
   return (
     <nav className="sidebar">
@@ -15,10 +16,10 @@ const Sidebar = () => {
         <li
           className={[
             'nav-list-item',
-            currentRoutePath === '/' ? 'nav-list-item-active' : '',
+            currentRoutePath === baseUrl + '/' ? 'nav-list-item-active' : '',
           ].join(' ')}
         >
-          <Link to="/">
+          <Link to={baseUrl + '/'}>
             <FaHome />
             <span>Home</span>
           </Link>
@@ -26,10 +27,12 @@ const Sidebar = () => {
         <li
           className={[
             'nav-list-item',
-            currentRoutePath === '/projects' ? 'nav-list-item-active' : '',
+            currentRoutePath === baseUrl + '/projects'
+              ? 'nav-list-item-active'
+              : '',
           ].join(' ')}
         >
-          <Link to="/projects">
+          <Link to={baseUrl + '/projects'}>
             <FaTasks />
             <span>Projects</span>
           </Link>
@@ -37,10 +40,12 @@ const Sidebar = () => {
         <li
           className={[
             'nav-list-item',
-            currentRoutePath === '/blogs' ? 'nav-list-item-active' : '',
+            currentRoutePath === baseUrl + '/blogs'
+              ? 'nav-list-item-active'
+              : '',
           ].join(' ')}
         >
-          <Link to="/blogs">
+          <Link to={baseUrl + '/blogs'}>
             <FaBlog />
             <span>Blogs</span>
           </Link>
@@ -48,10 +53,12 @@ const Sidebar = () => {
         <li
           className={[
             'nav-list-item',
-            currentRoutePath === '/contact' ? 'nav-list-item-active' : '',
+            currentRoutePath === baseUrl + '/contact'
+              ? 'nav-list-item-active'
+              : '',
           ].join(' ')}
         >
-          <Link to="/contact">
+          <Link to={baseUrl + '/contact'}>
             <FaAddressBook />
             <span>Contact</span>
           </Link>

@@ -7,19 +7,20 @@ import Projects from './Projects/Projects'
 import './Main.scss'
 
 const Main = () => {
+  const baseUrl = '/portfolio'
   return (
     <main className="main">
       <Switch>
-        <Route path="/projects">
+        <Route path={baseUrl + '/projects'}>
           <Projects />
         </Route>
-        <Route path="/blogs">
+        <Route path={baseUrl + '/blogs'}>
           <Blogs />
         </Route>
-        <Route path="/contact">
+        <Route path={baseUrl + '/contact'}>
           <Contact />
         </Route>
-        <Route path="/">
+        <Route path={baseUrl + '/'}>
           <Home />
         </Route>
       </Switch>
