@@ -58,16 +58,6 @@ const Contact = () => {
               <span>LinkedIn</span>
             </a>
           </li>
-          <li className="media-list-item">
-            <a
-              href="https://www.instagram.com/kabirajpant/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FaInstagram />
-              <span>Instagram</span>
-            </a>
-          </li>
         </ul>
       </div>
     </section>
