@@ -9,9 +9,9 @@ const Home = () => {
       <div className="intro">
         <h1>
           I am a software engineer learning and building web applications using
-          React and NodeJS. I also love to play around with new frameworks to
-          build scalable and performant web applications. I love to fiddle
-          around with algorithms and their use cases.
+          React and NodeJS. I love to play around with new frameworks to build
+          scalable and performant web applications. I also love to fiddle around
+          with algorithms and their use cases.
         </h1>
       </div>
 
