@@ -1,0 +1,28 @@
+.section-home {
+  padding: 2rem 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .intro {
+    h1 {
+      font-size: 1.8rem;
+      color: var(--color-grey-dark-2);
+      letter-spacing: 1px;
+      font-weight: 400;
+      margin-bottom: 0.5rem;
+    }
+  }
+  .work-experience {
+    h2 {
+      font-size: 3.6rem;
+      margin-bottom: 2rem;
+      color: transparent;
+      background-image: linear-gradient(
+        to right,
+        var(--color-primary-light),
+        var(--color-primary-dark)
+      );
+      background-clip: text;
+    }
+  }
+}

@@ -1,6 +1,6 @@
 import React from 'react'
 import './Contact.scss'
-import { FaGithub, FaInstagram, FaLinkedinIn, FaTwitter } from 'react-icons/fa'
+import { FaGithub, FaLinkedinIn, FaTwitter } from 'react-icons/fa'
 
 const Contact = () => {
   return (
