@@ -1,8 +1,18 @@
 import React from 'react'
 import './Blogs.scss'
-
+import { blogs } from './blogInfo'
+import Card from '../../Card/Card'
 const Blogs = () => {
-  return <h1>Blogs</h1>
+  return (
+    <section className="section section-blog">
+      <h2>Blogs</h2>
+      <div className="blog-container">
+        {blogs.map((blog) => (
+          <Card key={blog.id} cardType="blog" cardDetails={blog} />
+        ))}
+      </div>
+    </section>
+  )
 }
 
 export default Blogs

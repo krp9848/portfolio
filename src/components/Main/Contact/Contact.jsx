@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedinIn, FaTwitter } from 'react-icons/fa'
 
 const Contact = () => {
   return (
-    <section className="section contact-section">
+    <section className="section section-contact">
       <div className="contact-form-container">
         <div className="contact-form-heading">
           <h2>Get In Touch</h2>
@@ -19,7 +19,11 @@ const Contact = () => {
               rows="10"
             ></textarea>
           </div>
-          <a href="mailto: abc@example.com" target="_blank" rel="noreferrer">
+          <a
+            href="mailto: kabirajpant@gmail.com"
+            target="_blank"
+            rel="noreferrer"
+          >
             Send Message
           </a>
         </form>

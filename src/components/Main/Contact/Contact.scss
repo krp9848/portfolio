@@ -1,23 +1,10 @@
-.contact-section {
+.section-contact {
   display: flex;
   padding: 2rem 4rem;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 
   .contact-form-container {
-    .contact-form-heading {
-      h2 {
-        font-size: 3.6rem;
-        margin-bottom: 2rem;
-        color: transparent;
-        background-image: linear-gradient(
-          to right,
-          var(--color-primary-light),
-          var(--color-primary-dark)
-        );
-        background-clip: text;
-      }
-    }
     .contact-form {
       .form-group {
         margin-bottom: 1.5rem;
