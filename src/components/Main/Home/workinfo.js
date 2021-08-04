@@ -7,7 +7,7 @@ export const workInfo = [
     achievements: [
       {
         id: 'tbt-1',
-        info: 'Worked on a seizure prediction model for eplileptic patients using matrix proﬁling algorithm which achieved accuracy up to 97% for possible seizure events',
+        info: 'Worked on a seizure prediction model for epileptic patients using matrix proﬁling algorithm which achieved accuracy up to 97% for possible seizure events',
       },
       {
         id: 'tbt-2',

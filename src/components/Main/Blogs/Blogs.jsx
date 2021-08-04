@@ -7,9 +7,13 @@ const Blogs = () => {
     <section className="section section-blog">
       <h2>Blogs</h2>
       <div className="blog-container">
-        {blogs.map((blog) => (
-          <Card key={blog.id} cardType="blog" cardDetails={blog} />
-        ))}
+        {blogs.length > 0 ? (
+          blogs.map((blog) => (
+            <Card key={blog.id} cardType="blog" cardDetails={blog} />
+          ))
+        ) : (
+          <h3>Blogs here soon enough!</h3>
+        )}
       </div>
     </section>
   )
