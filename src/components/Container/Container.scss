@@ -5,4 +5,8 @@
 
   background-color: var(--color-grey-light-1);
   box-shadow: var(--dark-shadow);
+
+  @media screen and (max-width: 62.5em) {
+    margin: 0;
+  }
 }
